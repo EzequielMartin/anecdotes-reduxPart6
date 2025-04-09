@@ -20,8 +20,8 @@ const asObject = (anecdote) => {
 const initialState = anecdotesAtStart.map(asObject)
 
 const anecdoteReducer = (state = initialState, action) => {
-  console.log('state now: ', state)
-  console.log('action', action)
+  //console.log('state now: ', state)
+  //console.log('action', action)
   switch(action.type) {
     case "VOTE": {
       const id = action.payload.id
@@ -49,7 +49,7 @@ export const createAnecdote = (content) => {
 }
 
 export const vote = (id) => {
-  console.log('vote', id)
+  //console.log('vote', id)
   return {
     type: "VOTE",
     payload: { id }
