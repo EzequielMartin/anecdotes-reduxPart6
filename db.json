@@ -34,6 +34,11 @@
       "id": "42e5",
       "content": "asd",
       "votes": 0
+    },
+    {
+      "id": "8111",
+      "content": "Probando si puedo agregar con redux thunk",
+      "votes": 0
     }
   ]
 }
